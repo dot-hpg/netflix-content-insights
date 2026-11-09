@@ -10,6 +10,7 @@
 
 | | |
 |---|---|
+| 🖥️ **Interactive dashboard** | [`dashboard/`](dashboard/) (static site, deploy on Vercel with Root Directory `dashboard`) |
 | 📓 **Notebook** | [`notebooks/Netflix_EDA_Case_Study.ipynb`](notebooks/Netflix_EDA_Case_Study.ipynb) (fully executed, all outputs saved) |
 | 📄 **Report (PDF, 33 pages)** | [`reports/Netflix_EDA_Case_Study.pdf`](reports/Netflix_EDA_Case_Study.pdf) |
 | 🌐 **Report (HTML)** | [`reports/Netflix_EDA_Case_Study.html`](reports/Netflix_EDA_Case_Study.html) |
@@ -96,6 +97,7 @@ Raw CSV ─► Cleaning ─► Profiling ─► Un-nesting ─► Univariate ─
 │   ├── Netflix_EDA_Case_Study.pdf       # submission-ready PDF (33 pages)
 │   ├── Netflix_EDA_Case_Study.html      # same report, browser-friendly
 │   └── insights_and_recommendations.md  # text for the submission editor
+├── dashboard/                           # interactive web dashboard (Vercel-ready)
 ├── images/                              # 23 charts saved with plt.savefig
 ├── scripts/export_pdf.sh                # re-run notebook and export reports
 ├── requirements.txt
